@@ -1,0 +1,101 @@
+{
+  "name": "graphics-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/core": "^2.10.7",
+    "@date-io/date-fns": "^2.10.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.19",
+    "@material-ui/docs": "^4.0.0-beta.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/pickers": "^3.2.10",
+    "@material-ui/styles": "^4.11.3",
+    "@material-ui/system": "^4.11.3",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "axios-mock-adapter": "^1.19.0",
+    "body-parser": "^1.19.0",
+    "bookshelf": "^1.2.0",
+    "bookshelf-uuid": "^1.0.1",
+    "clsx": "^1.1.1",
+    "connected-react-router": "^6.8.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.17.0",
+    "dotenv": "^8.2.0",
+    "formik": "^2.2.6",
+    "history": "^5.0.0",
+    "jss": "^10.5.1",
+    "knex": "^0.21.17",
+    "konva": "^7.2.2",
+    "lodash": "^4.17.20",
+    "material-ui-color": "^0.4.9",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
+    "react-helmet": "^6.1.0",
+    "react-konva": "^17.0.1-3",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-syntax-highlighter": "^15.4.3",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "socket.io": "^3.1.1",
+    "socket.io-client": "^3.1.1",
+    "styled-components": "^5.2.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "server-start": "node server/index.js",
+    "migrate": "knex migrate:latest",
+    "migrate:make": "knex migrate:make",
+    "migrate:rollback": "knex migrate:rollback"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-prettier": "3.3.0",
+    "prettier": "2.2.1",
+    "prop-types": "15.7.2",
+    "redux-devtools-extension": "2.13.8"
+  }
+}
